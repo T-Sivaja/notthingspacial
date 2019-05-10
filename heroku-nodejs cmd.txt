@@ -1,0 +1,19 @@
+heroku login
+node --version
+npm --version
+git --version
+
+git clone https://github.com/heroku/node-js-getting-started.git
+cd node-js-getting-started
+
+heroku logs --tail
+
+copy to Procfile:
+"web: node index.js"
+
+heroku local web
+heroku open cool
+
+git add .
+git commit -m "Commit detail"
+git push heroku master
