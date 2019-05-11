@@ -32,7 +32,7 @@ void setup() {
     }
 
     WiFi.mode(WIFI_STA);
-    WiFiMulti.addAP("MN3420 2.4GHz", "987412365MN");
+    WiFiMulti.addAP("Zen Three", "987412365");
 
 }
 
@@ -70,4 +70,3 @@ void loop() {
 
     delay(10000);
 }
-
